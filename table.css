@@ -1,0 +1,60 @@
+
+.cell {
+    display: inline-block;
+    margin: 1px; 
+    padding: 5px;
+    text-decoration: underline;
+    color: blue;
+    /* background-color: #f0f0f0; */
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: #d0d0d0; /* Background color on hover */
+}
+
+#cell-1 {
+    border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#cell-2 {
+    border-left: 1px solid black ;
+    border-right: 1px solid black ;
+    border-bottom: 1px solid black ;
+}
+
+#cell-3 {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#cell-4 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#cell-5 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+#cell-6 {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#cell-7 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#cell-8 {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+#cell-9 {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
